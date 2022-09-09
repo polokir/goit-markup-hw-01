@@ -39,6 +39,7 @@ body {
 .header-logo{ 
     font-family: 'Raleway', sans-serif; 
     margin-top: 24px; 
+    text-decoration: none;
 } 
  
 .header-contact-info{ 
@@ -182,6 +183,9 @@ footer{
     font-size: 26px;
     line-height: 31px;
     margin-bottom: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 215px;
 }
 
 .adress-item{
@@ -191,6 +195,7 @@ footer{
     font-size: 14px;
     line-height: 24px;
     margin-bottom:9px;
+    text-decoration: none;
 
 }
 
@@ -200,10 +205,14 @@ footer{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom:9px;
+    text-decoration: none;
 }
 
-.adress{
+.contacts{
+    display: flex;
+    flex-direction: column;
     margin-left: 215px;
     list-style-type: none;
     padding-top: 60px;
 }
+
